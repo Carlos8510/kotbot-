@@ -1,0 +1,18 @@
+# Intellij Idea
+.idea
+*.iml
+out
+
+# Kotlin
+.kotlin
+
+# Gradle
+.gradle
+build
+
+# Configuration
+/tgkotbot/src/main/resources/application.conf
+.env
+
+# Publish
+publish.sh
