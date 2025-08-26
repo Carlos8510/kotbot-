@@ -25,13 +25,13 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v4
+      uses: actions/checkout@v5
 
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
       with:
         languages: ${{ matrix.language }}
-    - uses: actions/setup-java@v4
+    - uses: actions/setup-java@v5
       with:
         java-version: "21"
         distribution: "liberica"
